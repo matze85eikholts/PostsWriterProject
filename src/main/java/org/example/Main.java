@@ -12,7 +12,7 @@ public class Main {
         LabelView labelView = new LabelView();
 
         while (true) {
-            System.out.println("\n=== Main Menu ===");
+            System.out.println("\n=== Main menu ===");
             System.out.println("1. Writers");
             System.out.println("2. Posts");
             System.out.println("3. Labels");
