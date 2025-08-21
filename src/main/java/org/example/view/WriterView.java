@@ -1,4 +1,5 @@
 package org.example.view;
+import org.example.controller.WriterController;
 import java.util.Scanner;
 
 public class WriterView {

@@ -2,6 +2,10 @@ package org.example;
 
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import org.example.view.LabelView;
+import org.example.view.PostView;
+import org.example.view.WriterView;
+
 import java.util.Scanner;
 
 public class Main {
@@ -22,7 +26,7 @@ public class Main {
             String choice = scanner.nextLine();
             switch (choice) {
                 case "1" -> writerView.start();
-                case "2" -> postView.start();
+                case "2" -> postView1.start();
                 case "3" -> labelView.start();
                 case "4" -> {
                     System.out.println("Goodbye!");
